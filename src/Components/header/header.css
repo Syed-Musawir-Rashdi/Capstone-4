@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.icon-1{
+    color:#1877F2;
+}
+
+.icon-1:hover{
+    cursor: pointer;
+}
+
+.icon-3:hover{
+    cursor: pointer;
+    background-color: #d6d9dd;
+}
+
+.icon-3{
+    background-color: #e0e3e7;
+    color: #080809;
+}
+
+.icon-2{
+    cursor: pointer;
+    color: #98999c;
+}
+
+
+.icon-2:hover{
+    cursor: pointer;
+    color: #1877F2;
+}
+
+
+.icons-detail{
+    padding: 0px 30px;
+}
+
+.icons-detail-different{
+    padding: 0px 30px;
+}
+
+.z-index{
+    z-index: 100;
+}
