@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Button} from "@mui/material";
-import Profile from '../images/profile.jpg';
+import { Box, Button } from "@mui/material";
+import Profile from "../images/profile.jpg";
 import GroupOutlinedIcon from "@mui/icons-material/GroupOutlined";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import ReplayIcon from "@mui/icons-material/Replay";
@@ -11,7 +11,8 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import InsertInvitationIcon from "@mui/icons-material/InsertInvitation";
 import EqualizerIcon from "@mui/icons-material/Equalizer";
 import ExpandCircleDownRoundedIcon from "@mui/icons-material/ExpandCircleDownRounded";
-import './home.css'
+import "./home.css";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -21,8 +22,17 @@ const Sidebar = () => {
 
         <Box className="my-2 hover-1">
           <Button variant="outline" className="d-flex align-items-center">
-          <img src={Profile} className="rounded-circle img-fluid" style={{ width: "30px", height: "30px", objectFit: "cover" }} alt="Profile" />
-            <span className="mx-2 fs-6 d-lg-block d-none text-capitalize">Syed Musawir</span>
+            <Link to={"/profile"}>
+              <img
+                src={Profile}
+                className="rounded-circle img-fluid"
+                style={{ width: "30px", height: "30px", objectFit: "cover" }}
+                alt="Profile"
+              />
+            </Link>
+            <span className="mx-2 fs-6 d-lg-block d-none text-capitalize">
+              Syed Musawir
+            </span>
           </Button>
         </Box>
 

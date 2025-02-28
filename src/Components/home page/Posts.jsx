@@ -22,6 +22,7 @@ import postProfile3 from '../images/postProfile3.jpg';
 import postProfile4 from '../images/postProfile4.jpg';
 import postProfile6 from '../images/postProfile6.jpg';
 import postProfile7 from '../images/postProfile7.jpg';
+import { Link } from "react-router-dom";
 
 const Posts = () => {
   const [posts, setPosts] = useState([
@@ -254,6 +255,7 @@ const Posts = () => {
       <Box className="my-3">
         <Card className="py-4 px--2 rounded-3">
           <Box className="d-flex align-items-center ms-2">
+            <Link to={"/profile"}>
             <img
               src={Profile}
               className="rounded-circle img-fluid"
@@ -265,6 +267,7 @@ const Posts = () => {
               }}
               alt="Profile"
             />
+            </Link>
             <input
               type="text"
               placeholder="What on your mind, Musawir"
