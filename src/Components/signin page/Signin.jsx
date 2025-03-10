@@ -5,7 +5,7 @@ import Facebook from "../images/facbook.svg";
 import { Link, useNavigate } from "react-router-dom";
 
 function Signin() {
-  let navigate = useNavigate(); // Initialize navigation hook
+  let navigate = useNavigate(); 
 
   let {
     handleSubmit,

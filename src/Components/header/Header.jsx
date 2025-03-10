@@ -38,7 +38,7 @@ const Header = () => {
                 placeholder="Search Facebook" 
               />
 
-              <div className="d-flex flex-lg-row flex-column gap-5 ms-lg-5 align-items-center me-sm-auto">
+              <div className="d-flex flex-lg-row flex-row my-2 gap-5 ms-lg-5 align-items-center me-sm-auto">
                 <Tooltip title="Home">
                   <Link to="/home"><span onClick={()=>{window.scrollTo({top:0,behavior:"smooth"})}}><FontAwesomeIcon icon={faHome} className="icon-2 ms-lg-5" style={{ fontSize: "28px" }} /></span></Link>
                 </Tooltip>

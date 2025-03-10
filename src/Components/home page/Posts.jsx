@@ -300,7 +300,7 @@ const Posts = () => {
               </span>
             </Button>
 
-            {/* feeling */}
+            {/* Feeling/activity section */}
             <Button
               variant="outline"
               className="d-flex align-items-center gap-1 hover-1"

@@ -16,12 +16,10 @@ function Signup() {
   const onSubmit = async (data) => {
     console.log("Signup Data:", data);
     
-    // Save user data to localStorage
     localStorage.setItem("user", JSON.stringify(data));
 
-    // Redirect to signin after signup
     setTimeout(() => {
-      navigate("/home");
+      navigate("/Signin");
     }, 1000);
   };
 
